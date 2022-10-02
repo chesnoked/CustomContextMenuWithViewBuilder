@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96B8B54228EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8B54128EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffectApp.swift */; };
+		96B8B54628EA0F0D0010E96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B8B54528EA0F0D0010E96E /* Assets.xcassets */; };
+		96B8B54928EA0F0D0010E96E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B8B54828EA0F0D0010E96E /* Preview Assets.xcassets */; };
+		96B8B55028EA0FA10010E96E /* ColorPaletteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8B54F28EA0FA10010E96E /* ColorPaletteExtension.swift */; };
+		96B8B55528EA0FC20010E96E /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8B55128EA0FC20010E96E /* CartView.swift */; };
+		96B8B55628EA0FC20010E96E /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8B55228EA0FC20010E96E /* ShopView.swift */; };
+		96B8B55728EA0FC20010E96E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8B55328EA0FC20010E96E /* ProfileView.swift */; };
+		96B8B55828EA0FC20010E96E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8B55428EA0FC20010E96E /* HomeView.swift */; };
+		96B8B55B28EA10120010E96E /* MyAppMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8B55A28EA10120010E96E /* MyAppMainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96B8B53E28EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBarWithMatchedGeometryEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B8B54128EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarWithMatchedGeometryEffectApp.swift; sourceTree = "<group>"; };
+		96B8B54528EA0F0D0010E96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96B8B54828EA0F0D0010E96E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96B8B54F28EA0FA10010E96E /* ColorPaletteExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPaletteExtension.swift; sourceTree = "<group>"; };
+		96B8B55128EA0FC20010E96E /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		96B8B55228EA0FC20010E96E /* ShopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		96B8B55328EA0FC20010E96E /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		96B8B55428EA0FC20010E96E /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		96B8B55A28EA10120010E96E /* MyAppMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAppMainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B8B53B28EA0F0B0010E96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96B8B53528EA0F0B0010E96E = {
+			isa = PBXGroup;
+			children = (
+				96B8B54028EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffect */,
+				96B8B53F28EA0F0B0010E96E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96B8B53F28EA0F0B0010E96E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96B8B53E28EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96B8B54028EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				96B8B54128EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffectApp.swift */,
+				96B8B54F28EA0FA10010E96E /* ColorPaletteExtension.swift */,
+				96B8B55A28EA10120010E96E /* MyAppMainView.swift */,
+				96B8B55928EA0FD30010E96E /* Pages */,
+				96B8B54528EA0F0D0010E96E /* Assets.xcassets */,
+				96B8B54728EA0F0D0010E96E /* Preview Content */,
+			);
+			path = CustomTabBarWithMatchedGeometryEffect;
+			sourceTree = "<group>";
+		};
+		96B8B54728EA0F0D0010E96E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96B8B54828EA0F0D0010E96E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96B8B55928EA0FD30010E96E /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				96B8B55428EA0FC20010E96E /* HomeView.swift */,
+				96B8B55228EA0FC20010E96E /* ShopView.swift */,
+				96B8B55128EA0FC20010E96E /* CartView.swift */,
+				96B8B55328EA0FC20010E96E /* ProfileView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96B8B53D28EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96B8B54C28EA0F0D0010E96E /* Build configuration list for PBXNativeTarget "CustomTabBarWithMatchedGeometryEffect" */;
+			buildPhases = (
+				96B8B53A28EA0F0B0010E96E /* Sources */,
+				96B8B53B28EA0F0B0010E96E /* Frameworks */,
+				96B8B53C28EA0F0B0010E96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTabBarWithMatchedGeometryEffect;
+			productName = CustomTabBarWithMatchedGeometryEffect;
+			productReference = 96B8B53E28EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96B8B53628EA0F0B0010E96E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					96B8B53D28EA0F0B0010E96E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 96B8B53928EA0F0B0010E96E /* Build configuration list for PBXProject "CustomTabBarWithMatchedGeometryEffect" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96B8B53528EA0F0B0010E96E;
+			productRefGroup = 96B8B53F28EA0F0B0010E96E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96B8B53D28EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96B8B53C28EA0F0B0010E96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B8B54928EA0F0D0010E96E /* Preview Assets.xcassets in Resources */,
+				96B8B54628EA0F0D0010E96E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96B8B53A28EA0F0B0010E96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B8B55828EA0FC20010E96E /* HomeView.swift in Sources */,
+				96B8B54228EA0F0B0010E96E /* CustomTabBarWithMatchedGeometryEffectApp.swift in Sources */,
+				96B8B55528EA0FC20010E96E /* CartView.swift in Sources */,
+				96B8B55628EA0FC20010E96E /* ShopView.swift in Sources */,
+				96B8B55728EA0FC20010E96E /* ProfileView.swift in Sources */,
+				96B8B55B28EA10120010E96E /* MyAppMainView.swift in Sources */,
+				96B8B55028EA0FA10010E96E /* ColorPaletteExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96B8B54A28EA0F0D0010E96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96B8B54B28EA0F0D0010E96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96B8B54D28EA0F0D0010E96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTabBarWithMatchedGeometryEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = 4AKDGKWD78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TerraSky.CustomTabBarWithMatchedGeometryEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96B8B54E28EA0F0D0010E96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomTabBarWithMatchedGeometryEffect/Preview Content\"";
+				DEVELOPMENT_TEAM = 4AKDGKWD78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TerraSky.CustomTabBarWithMatchedGeometryEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96B8B53928EA0F0B0010E96E /* Build configuration list for PBXProject "CustomTabBarWithMatchedGeometryEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B8B54A28EA0F0D0010E96E /* Debug */,
+				96B8B54B28EA0F0D0010E96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96B8B54C28EA0F0D0010E96E /* Build configuration list for PBXNativeTarget "CustomTabBarWithMatchedGeometryEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96B8B54D28EA0F0D0010E96E /* Debug */,
+				96B8B54E28EA0F0D0010E96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96B8B53628EA0F0B0010E96E /* Project object */;
+}
